@@ -1,0 +1,41 @@
+.hidden {
+    display: none !important
+}
+
+h1 {
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#storybox,
+form,
+aside {
+    display: flex;
+    flex-direction: column;
+
+}
+
+button,
+span,
+input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+span {
+    text-align: center;
+    border:gray 1px solid;
+}
+
+button:hover,
+span:hover {
+    background-color: red;
+    cursor: grab;
+    text-decoration-color: honeydew;
+}
+
+aside {
+    font-size: 20px;
+}
